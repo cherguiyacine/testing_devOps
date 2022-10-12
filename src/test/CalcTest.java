@@ -1,15 +1,14 @@
 package test;
 
-import gen.Calc;
-import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class CalcTest {
 
-    @Test
+    @org.junit.Test
     public void sum() {
+    }
 
-        assertEquals(13,new Calc().sum(5,8));
+    @org.junit.Test
+    public void sou() {
     }
 }
