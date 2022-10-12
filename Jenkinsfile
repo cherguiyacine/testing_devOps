@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Testl') {
+    stage('Mail Notification') {
       steps {
-        sh 'ls'
+        mail(subject: 'new commit', body: 'Hey ', cc: 'hb_chergui@esi.dz')
       }
     }
 
