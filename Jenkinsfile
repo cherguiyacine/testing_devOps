@@ -7,7 +7,7 @@ pipeline {
       }
     }
 
-    stage('aff2') {
+    stage('aff3') {
       steps {
         echo 'secondo'
       }
