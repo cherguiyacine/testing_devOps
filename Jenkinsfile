@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Notification') {
+      steps {
+        mail(subject: 'Mail notification', body: 'Hey', cc: 'hb_chergui@esi.dz')
+      }
+    }
+
   }
 }
