@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('aff2') {
+      steps {
+        echo 'secondo'
+      }
+    }
+
   }
 }
