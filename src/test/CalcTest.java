@@ -5,7 +5,7 @@ import static org.junit.Assert.*;
 public class CalcTest {
 
     @org.junit.Test
-    public void sum() {
+    public void summ() {
     }
 
     @org.junit.Test
