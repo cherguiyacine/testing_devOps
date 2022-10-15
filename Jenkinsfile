@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('kjlk') {
-      steps {
-        sh 'echo \'heyyyy\''
-      }
-    }
-
   }
 }
