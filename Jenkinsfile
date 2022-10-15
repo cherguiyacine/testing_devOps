@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Notification') {
       steps {
-        mail(subject: 'New Commit', body: 'Hey ', cc: 'hb_chergui@esi.dz')
+        mail(subject: 'New Commit', body: 'Hey  saida', cc: 'hb_chergui@esi.dz')
       }
     }
 
