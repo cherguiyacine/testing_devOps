@@ -6,6 +6,7 @@ pipeline {
         sh 'echo \'hey there\''
       }
     }
+    
 
     stage('NOTIF') {
       steps {
