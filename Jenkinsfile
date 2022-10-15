@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('printss') {
       steps {
-        echo 'Bonjoucr github'
+        echo 'salut github'
       }
     }
 
