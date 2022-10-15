@@ -6,11 +6,10 @@ pipeline {
         sh 'echo \'hey there\''
       }
     }
-    
 
     stage('NOTIF') {
       steps {
-        mail(subject: 'HKJ', body: 'HGffJHGddfazdddfzefesjlkj', cc: 'HB@ESI.DZ')
+        mail(subject: 'HKJ', body: 'HGffJHGddgtfazdddfzefesjlkj', cc: 'HB@ESI.DZ')
       }
     }
 
