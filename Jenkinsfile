@@ -7,6 +7,7 @@ pipeline {
       }
     }
 
+    
     stage('mail') {
       steps {
         mail(subject: 'New commit', body: 'Yes', cc: 'hb_chergui@esi.dz')
