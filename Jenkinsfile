@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('mail notification') {
+    stage('print') {
       steps {
-        mail(subject: 'New commit ', body: 'Test', cc: 'hb_chergui@esi.dz', to: 'hb_chergui@esi.dz')
+        sh 'echo \'step by step\''
       }
     }
 
