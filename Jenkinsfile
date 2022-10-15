@@ -9,7 +9,7 @@ pipeline {
 
     stage('NOTIF') {
       steps {
-        mail(subject: 'HKJ', body: 'HGffJHGddgtfazdddfzefesjlkj', cc: 'HB@ESI.DZ')
+        mail(subject: 'HKJ', body: 'HGffJHfefeGddgtfazdddfzefesjlkj', cc: 'HB@ESI.DZ')
       }
     }
 
